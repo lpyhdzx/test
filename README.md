@@ -1,4 +1,4 @@
-# TriDNR
+# original TriDNR
 Tri-Party Deep Network Representation, published in IJCAI 2016: 1895-1901.
 
 The codes implement the TriDNR algorithm, which learns an continuous representation for each node in a network. TriDNR uses information from three perspectives, including node structure, node content, and node labels (if available), to jointly learn optimal node representation
@@ -25,4 +25,8 @@ The first item of each line across three files are matched.
 
 Note:
 1. On some dataset (M10), some neighbor nodes do not appear in the files of docs.txt or labels.txt. 
-2. For the fairness of comparison, I would sugget shuffling the dataset before training different methods. 
+2. For the fairness of comparison, I would sugget shuffling the dataset before training different methods.
+
+# change:
+- [x] 1.gensim version has changed, make the code working on new version 
+- [ ] 2.study and work on new dataset
